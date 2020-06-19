@@ -1,6 +1,5 @@
 import { PassportStrategy } from "@nestjs/passport";
 import {Strategy} from 'passport-facebook'
-// import {} from 'passport-facebook-token'
 import {Injectable} from '@nestjs/common';
 import {config} from 'dotenv';
 config();

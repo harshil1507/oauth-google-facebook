@@ -19,6 +19,7 @@ export class AppService {
     }
     
     return{
+      message : `Welcome ${req.user.displayName}`,
       user : req.user,
     }
   }
